@@ -14,7 +14,7 @@ public class DitaMapProcessor {
             for (String inputFilePath : inputFilePaths) {
                 processFile(inputFilePath);
             }
-            System.out.println("Content copied from all the  inputFilePaths to respective chapter files.");
+            System.out.println("Content copied from all the      inputFilePaths to the  respective chapter files.");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -75,7 +75,7 @@ public class DitaMapProcessor {
                 }
 
                 // Print the id of the chapter
-                System.out.println("ID for chapter: " + chapterId);
+                System.out.println("ID for chapter is: " + chapterId);
             }
         }
     }
