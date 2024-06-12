@@ -1,4 +1,4 @@
-import org.w3c.dom.*;
+    import org.w3c.dom.*;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.*;
@@ -14,7 +14,7 @@ public class DitaMapProcessor {
             for (String inputFilePath : inputFilePaths) {
                 processFile(inputFilePath);
             }
-            System.out.println("Content copied from all inputFilePaths to respective chapter files.");
+            System.out.println("Content copied from all the  inputFilePaths to respective chapter files.");
         } catch (Exception e) {
             e.printStackTrace();
         }
